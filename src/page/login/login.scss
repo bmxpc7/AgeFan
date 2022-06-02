@@ -1,0 +1,42 @@
+section {
+        width: 100vw;
+        height: 100vh;
+        background-image: url("../../assets/fondo.png");
+        background-size:contain;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        form {
+            p {
+                font-family: "Macondo", cursive;
+                font-size: 20px;
+            }
+            img {
+                width: 200px;
+                height: 200px;
+            }
+            input {
+                border: none;
+                border-bottom: 2px solid rgb(189, 80, 69);
+            }
+            input[type="submit"] {
+                font-family: "Macondo", cursive;
+                font-size: 20px;
+                margin-top: 20px;
+                border: none;
+                border-radius: 15px;
+                padding: 10px;
+                background: #e0e0e0;
+                box-shadow: 5px 5px 6px #a1a1a1, -5px -5px 6px #ffffff;
+            }
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            background-color: white;
+            padding: 50px;
+            border-radius: 50px;
+            background: #e0e0e0;
+            box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+        }
+    }

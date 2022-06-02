@@ -1,0 +1,17 @@
+#section{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+    height: 400px;
+    border-radius: 50px;
+    background: #e0e0e0;
+    box-shadow: 20px 20px 60px #bebebe, -20px -20px 60px #ffffff;
+    img{
+        width: 150px;
+        height: 150px;
+    }
+}

@@ -1,0 +1,38 @@
+.modal-mensaje {
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    .modal__Body-mensaje {
+        background-image: url("../../assets/pergamino.png");
+        background-size: cover;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        width: 400px;
+        height: 200px;
+        background-color: transparent;
+        border-radius: 20px;
+        position: relative;
+        h2{
+            font-family: 'Great Vibes';
+            font-size: 25px;
+
+        }
+        button{
+            font-family: 'Great Vibes';
+            font-size: 30px;
+            background-color: transparent;
+            border: none;
+            cursor: pointer;
+        }
+    }
+}
