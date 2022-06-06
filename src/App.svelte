@@ -9,6 +9,11 @@
   import Principal from "./page/principal/Principal.svelte";
   export let url = "";
 </script>
+<style>
+  :root{
+    background-color: rgb(224, 224, 224);
+  }
+</style>
 <Router url="{url}">
   <div>
     <Route path="informacion" component="{Informacion}" />

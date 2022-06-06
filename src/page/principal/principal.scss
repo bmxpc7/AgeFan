@@ -1,8 +1,15 @@
-.principal__window{
+.principal__window {
+    width: 100vw;
     background-color: rgb(224, 224, 224);
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
+    margin-top: 50px;
+    .cards-civilizations {
+        width: 100%;
+        margin-left: 100px;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
+    }
 }

@@ -1,3 +1,3 @@
-const url = "https://age-of-empires-2-api.herokuapp.com/api/v1"
-const civilizaciones = "/civilizations"
-const civilizacion = "/civilization/"
+export const url = "/api/v1"
+export const civilizaciones = "/civilizations"
+export const civilizacion = "/civilization/"
